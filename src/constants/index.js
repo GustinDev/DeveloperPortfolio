@@ -28,15 +28,19 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre Mi",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiencia",
+  },
+  {
+    id: "tech",
+    title: "Habilidades",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 ];
 
@@ -46,15 +50,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Fronted Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UX DESIGNER",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Backend Developer",
     icon: creator,
   },
 ];
@@ -93,24 +97,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
