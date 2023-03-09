@@ -6,6 +6,7 @@ import {
   javascript,
   typescript,
   html,
+  bt,
   css,
   reactjs,
   redux,
@@ -77,10 +78,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -93,6 +90,10 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Bootstrap",
+    icon: bt,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -101,11 +102,11 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "Git",
+    name: "git",
     icon: git,
   },
   {
-    name: "Figma",
+    name: "figma",
     icon: figma,
   },
 ];
