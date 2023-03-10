@@ -34,13 +34,13 @@ const ProjectCard = ({
         {/* Card */}
         <div
           onClick={() => window.open(source_code_link, "_blank")}
-          className="relative w-full h-[230px]"
+          className="relative w-full h-[230px] cursor-pointer"
         >
           {/* Image Project */}
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl "
           />
           {/* Image - Link - Github */}
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -78,27 +78,30 @@ const ProjectCard = ({
 };
 
 {
-  /* Titulo, descripción y mapeo */
+  /* Titulo, descripción y mapeo de projects*/
 }
 
 const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Trabajos Previo</p>
+        <p className={`${styles.sectionSubText} `}>
+          ¿Quieres conocer mi trabajo?
+        </p>
         <h2 className={`${styles.sectionHeadText}`}>Proyectos</h2>
       </motion.div>
       {/* Párrafo - Descripción de proyectos */}
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[20px] max-w-4xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Aquí podrás encontrar una muestra de mi habilidad como desarrollador
+          Frontend. Cada proyecto ha sido diseñado y construido para ofrecer una
+          experiencia de usuario intuitiva y fácil de usar en una amplia gama de
+          dispositivos. Espero que disfrutes explorando mi trabajo y que te
+          animes a contactarme si tienes alguna pregunta o si estás interesado/a
+          en colaborar en algún proyecto.
         </motion.p>
       </div>
       {/* Mapeo de cada proyecto por cada carta. */}
@@ -111,4 +114,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "works");

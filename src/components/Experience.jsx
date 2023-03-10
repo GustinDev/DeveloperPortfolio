@@ -66,11 +66,9 @@ const Experience = () => {
       {/* TITLE */}
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          ¿Qué es lo que he hecho?
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Experiencia</h2>
       </motion.div>
       {/* MAP ITEM (experiences) x ITEM CARDS */}
       <div className="mt-20 flex flex-col">

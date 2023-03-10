@@ -15,7 +15,7 @@ const Tech = () => {
         <br />
 
         <p className={styles.sectionSubText}>
-          (PRO TIP: Sujeta y mueve las skills.)
+          (PRO TIP: Sujeta y mueve las skills)
         </p>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">

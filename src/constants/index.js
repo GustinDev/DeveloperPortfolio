@@ -28,17 +28,14 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "Sobre Mi",
+    id: "works",
+    title: "Proyectos",
   },
   {
     id: "work",
     title: "Experiencia",
   },
-  {
-    id: "tech",
-    title: "Habilidades",
-  },
+  ,
   {
     id: "contact",
     title: "Contacto",
@@ -47,20 +44,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "WEB DEVELOPER",
     icon: web,
   },
   {
-    title: "Fronted Developer",
+    title: "FRONTEND DEVELOPER",
     icon: mobile,
+  },
+  {
+    title: "REACT DEVELOPER",
+    icon: creator,
   },
   {
     title: "UX DESIGNER",
     icon: backend,
-  },
-  {
-    title: "Backend Developer",
-    icon: creator,
   },
 ];
 
@@ -102,66 +99,38 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Bilingual Agent",
+    company_name: "Teleperformance",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#E6DEDD",
+    date: "Septiembre 2022 - Noviembre 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Traducción simúltanea: Proporcionar interpretación en tiempo real durante las llamadas telefónicas, reuniones y chat.",
+      "Traducción de documentos: Traducir documentos importantes de la empresa, como contratos, informes y correos electrónicos, del inglés al español o viceversa",
+      "Resolución de Problemas: Proporcionar asistencia en la solución de problemas o transferir al cliente a alguien especializado en el tema.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Web Developer Freelancer",
+    company_name: "Freelancer",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Noviembre 2022 - Actualmente",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Crear y diseñar interfaces de usuario interactivas, atractivas y responsive utilizando diferentes tenologías actuales.",
+      "Optimizar el rendimiento de los sitios web y aplicaciones para una mejor experiencia del usuario.",
+      "Trabajar en estrecha colaboración con los desarrolladores de back-end para integrar la funcionalidad del servidor con la interfaz de usuario.",
     ],
   },
 ];
@@ -169,93 +138,94 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Gran profesional con buena capacidad adaptativa, es amigable y dedicado.",
+    name: "Laura Mora",
+    designation: "Administradora",
+    company: "Colombia",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Una persona apasionada por lo que hace, proactivo y motivado por aprender sobre cosas nuevas.",
+    name: "Andrés Lucero",
+    designation: "Developer",
+    company: "Colombia",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Buen diseñador, paciente y con buenas habilidades por mostrar.",
+    name: "Keneth Portilla",
+    designation: "Ingeniero",
+    company: "Colombia",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Diario de las Pesadillas",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Aplicación Web orientada a un público infantil, alberga cuentos, audiolibros y cortometrajes de terror.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "html",
+        color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "bootstrap",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://gustindev.github.io/DiarioDeLasPesadillas/index.html",
   },
   {
-    name: "Job IT",
+    name: "Esto Nos Cuentan",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Aplicación Web que permite compartir historias de forma anónima a través de las redes sociales.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "html",
+        color: "pink-text-gradient",
       },
       {
-        name: "restapi",
+        name: "js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "bootstrap",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://gustindev.github.io/EstoNosCuentan/",
   },
   {
-    name: "Trip Guide",
+    name: "Pastelitos Dulces",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Aplicación Web creada para 'Pastelitos', un emprendimiento de venta de resposteria y panaderia.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "html",
+        color: "pink-text-gradient",
       },
       {
-        name: "supabase",
+        name: "js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "bootstrap",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://gustindev.github.io/PastelitosDulces/",
   },
 ];
 
