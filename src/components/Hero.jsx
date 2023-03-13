@@ -19,21 +19,23 @@ const Hero = () => {
             Hola, soy <span className="text-[#915EFF]">Juan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Desarrollador Frontend 3D, <br className="sm:block hidden" />
-            experto en interfaces de <br />
+            Desarrollador Frontend 3D. <br className="sm:block hidden" />
+            Experto en interfaces de <br className="sm:block hidden" />
             usuario y web apps.
           </p>
 
           <br />
           <p className={styles.sectionSubText}>
-            (Pro Tip: Presiona y arrastra el escritorio)
+            (Pro Tip: Arrastra el escritorio a los lados)
           </p>
         </div>
       </div>
       <ComputersCanvas />
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      {/* Moble Tocuh Button */}
+      <div className="absolute bottom-20 md:bottom-10 lg:bottom-10 w-full flex justify-center items-center">
+        {/* Moble */}
         <a href="#about">
-          <div className="w-[30px] h-[50px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className=" w-[30px] h-[50px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 15, 0],

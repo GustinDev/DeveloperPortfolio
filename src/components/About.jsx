@@ -51,10 +51,9 @@ const About = () => {
         className="mt-4 text-secondary text-[20px] max-w-4xl leading-[30px] "
       >
         ¡Hola! Soy un Desarrollador Web Frontend bilingüe. Me considero un
-        apasionado por la tecnología y la programación. He trabajado en varios
-        proyectos en los que he creado interfaces de usuario responsive,
-        escalables y eficientes. Si necesitas un desarrollador confiable,
-        altamente motivado y especializado en React, no dudes en contactarme.
+        apasionado por la tecnología y la programación. Si necesitas un
+        desarrollador confiable, altamente motivado y especializado en React, no
+        dudes en contactarme.
         <br></br>
         <br></br>¡Estoy emocionado por trabajar contigo!
       </motion.p>

@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import swal from "sweetalert";
+
 const Contact = () => {
   {
     /* Estado inicial de lo que recibimos*/
@@ -62,9 +64,12 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert(
-            "¡Gracias por tu mensaje! Me comunicaré lo más pronto posible."
-          );
+          swal({
+            title: "¡Mensaje Enviado!",
+            text: "Me comunicaré lo más pronto posible.",
+            icon: "success",
+            button: "Aceptar",
+          });
 
           setForm({
             name: "",

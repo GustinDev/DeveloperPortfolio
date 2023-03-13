@@ -96,12 +96,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[20px] max-w-4xl leading-[30px]"
         >
-          Aquí podrás encontrar una muestra de mi habilidad como desarrollador
-          Frontend. Cada proyecto ha sido diseñado y construido para ofrecer una
-          experiencia de usuario intuitiva y fácil de usar en una amplia gama de
-          dispositivos. Espero que disfrutes explorando mi trabajo y que te
-          animes a contactarme si tienes alguna pregunta o si estás interesado/a
-          en colaborar en algún proyecto.
+          Todos mi proyectos han sido diseñados para ofrecer una experiencia de
+          usuario intuitiva y fácil de usar en una amplia gama de dispositivos.
+          ¡Espero que disfrutes explorando mi trabajo!
         </motion.p>
       </div>
       {/* Mapeo de cada proyecto por cada carta. */}

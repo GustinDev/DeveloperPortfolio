@@ -18,7 +18,7 @@ const Personal = () => {
         <div className="w-1/2  border-white h-1/2">
           <Downloader />
         </div>
-        <div className="w-1/2 h-1/2 lg:border-l border-white  md:border-t-0 md:border-l border-gray-400 sm:border-t-0 ">
+        <div className="w-1/2 h-1/2 lg:border-l border-white  md:border-t-0 md:border-l border-gray-400 sm:border-t-0 m-0">
           <Footer />
         </div>
       </div>
