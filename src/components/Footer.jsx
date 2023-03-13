@@ -3,11 +3,13 @@ import { styles } from "../styles";
 const Footer = () => {
   return (
     <div className="flex items-center justify-center flex-col pb-2 pt-10">
-      <p className="text-white text-[50px] font-bold">Redes Sociales</p>
+      <p className="text-[40px] text-white md:text-[50px] font-bold md:text-[50px]">
+        Redes Sociales
+      </p>
       <p className={`${styles.sectionSubText} text-center`}>
         Links a mis redes
       </p>
-      <div className="flex items-center justify-center flex-row cursor-pointer">
+      <div className="flex items-center justify-center flex-row ">
         <a
           target="_blank"
           href="

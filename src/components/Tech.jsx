@@ -3,17 +3,16 @@ import React from "react";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
-
+import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { motion } from "framer-motion";
 
 const Tech = () => {
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
-      <motion.div>
+      <motion.div variants={fadeIn("", "", 0.1, 1.5)}>
         <h2 className={styles.sectionHeadText}>Habilidades</h2>
         <br />
-
         <p className={styles.sectionSubText}>
           (PRO TIP: Sujeta y mueve las skills)
         </p>
