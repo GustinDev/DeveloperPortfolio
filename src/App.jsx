@@ -11,8 +11,6 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import Footer from "./components/Footer";
-import Downloader from "./components/Downloader";
 import Personal from "./components/Personal";
 
 const App = () => {
