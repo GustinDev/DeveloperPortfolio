@@ -30,7 +30,7 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
-  //CHANGE IS MOBILE
+  //IS MOBILE - DECLARAR
 
   const [isMobile, setIsMobile] = useState(false);
 

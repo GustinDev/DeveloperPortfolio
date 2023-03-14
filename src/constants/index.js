@@ -102,9 +102,28 @@ const technologies = [
     name: "Git",
     icon: git,
   },
+];
+
+const technologiesMobile = [
   {
-    name: "Figma",
-    icon: figma,
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Bootstrap",
+    icon: bt,
   },
 ];
 
@@ -229,4 +248,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  technologiesMobile,
+};
