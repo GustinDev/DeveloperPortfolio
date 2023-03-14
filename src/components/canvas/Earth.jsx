@@ -34,7 +34,7 @@ const EarthCanvas = () => {
         position: [-4, 3, 6],
       }}
     >
-      {/* Sacamos el modelo */}
+      {/* Sacamos el modelo - El esperar*/}
       <Suspense fallback={<CanvasLoader />}>
         {/* Lo hacemos rotar */}
         <OrbitControls

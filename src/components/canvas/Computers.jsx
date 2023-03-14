@@ -21,7 +21,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.29 : 0.6}
+        scale={isMobile ? 0.3 : 0.6}
         position={isMobile ? [0, -2, -0.5] : [0, -3.25, -1]}
         rotation={[-0.01, -0.2, -0.1]}
       />
